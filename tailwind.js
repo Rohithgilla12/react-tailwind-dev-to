@@ -24,7 +24,9 @@ module.exports = {
         text: "#f9fafa",
         link: "#dde0e2",
         teal: "#1CB3A6",
+        tealPri: "#26d9ca",
         hoverTags: "#868EE7",
+        searchBox: "#2E3A48",
       },
 
       gray: {
