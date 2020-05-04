@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = () => {
   return (
-    <div className="bg-dev-tealPri text-base font-semibold rounded w-32  text-black flex justify-center items-center">
+    <div className="bg-dev-tealPri text-base font-semibold rounded w-32  text-black flex justify-center items-center hover:bg-dev-teal">
       <span>Write a Post</span>
     </div>
   );

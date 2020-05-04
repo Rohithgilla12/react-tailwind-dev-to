@@ -3,7 +3,7 @@ import React from "react";
 const MyTags = () => {
   return (
     <div className="text-dev-text mt-4 flex flex-col">
-      <span>My Tags</span>
+      <span className="font-mono font-semibold">My Tags</span>
       <ul>
         <li className="my-3">#javascript</li>
         <li className="my-3">#webdev</li>
