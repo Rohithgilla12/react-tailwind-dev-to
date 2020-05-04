@@ -8,13 +8,11 @@ function App() {
   return (
     <div className="App">
       <div className="h-screen bg-dev-body">
-        <div className="bg-teal-300">
-          <NavBar />
-          <div class="grid grid-cols-12 gap-2">
-            <SideBar />
-            <Content />
-            <Listings />
-          </div>
+        <NavBar />
+        <div class="grid grid-cols-12 gap-2">
+          <SideBar />
+          <Content />
+          <Listings />
         </div>
       </div>
     </div>
