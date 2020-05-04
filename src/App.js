@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className="h-screen bg-dev-body">
         <NavBar />
-        <div class="grid grid-cols-12 gap-2">
+        <div class="grid grid-cols-12 gap-2 px-24">
           <SideBar />
           <Content />
           <Listings />

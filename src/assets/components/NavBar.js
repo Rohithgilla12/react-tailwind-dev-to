@@ -23,7 +23,7 @@ const NavBar = () => {
               id=""
             />
           </div>
-          <div className="col-span-3 flex justify-end flex-row">
+          <div className="col-span-3 flex justify-between flex-row">
             <Button />
             <span className="flex items-center mx-2">
               <ConnectIcon />

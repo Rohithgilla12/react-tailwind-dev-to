@@ -4,7 +4,7 @@ import MyTags from "./MyTags";
 
 const SideBar = () => {
   return (
-    <div className="col-span-3 pl-24 mt-4 pt-2">
+    <div className="col-span-3 mt-4 pt-2">
       <div className="flex flex-col">
         <div className="flex flex-row">
           <img
