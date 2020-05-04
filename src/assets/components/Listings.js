@@ -16,12 +16,12 @@ const Listings = () => {
           <StoriesItem text="Adding SMS alerts for deployments to Octwilio" />
           <StoriesItem text="Twilio Texts (Twilio Hackathon submission)" />
           <StoriesItem text="Adding SMS alerts for deployments to Octwilio" />
-          {/* <StoriesItem text="Twilio Texts (Twilio Hackathon submission)" /> */}
+          <StoriesItem text="Twilio Texts (Twilio Hackathon submission)" />
         </ul>
         <div className="w-100 bg-dev-tealPri h-10 rounded my-2 px-4 ml-4 flex justify-center items-center hover:bg-dev-teal">
           <span className="text-black">Share your project</span>
         </div>
-        <div className="w-100 bg-black h-10 rounded my-2px-4 ml-4 flex justify-center items-center hover:bg-dev-teal border-white border">
+        <div className="w-100 bg-black h-10 rounded my-2px-4 ml-4 flex justify-center items-center border-white border">
           <span className="text-white">See all posts</span>
         </div>
       </div>
