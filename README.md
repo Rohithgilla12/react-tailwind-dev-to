@@ -1,68 +1,65 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TLDR;
+Github repo [Link](https://github.com/Rohithgilla12/react-tailwind-dev-to)
+Live [https://devto-tailwind.netlify.app/](https://devto-tailwind.netlify.app/)
+*GIF*
+![Dev.to](https://dev-to-uploads.s3.amazonaws.com/i/g28wgl71hgf0otabmlrh.gif)
 
-## Available Scripts
+*Image*
+![Dev.to](https://dev-to-uploads.s3.amazonaws.com/i/5fkubfebiq9k13k4rh16.png)
 
-In the project directory, you can run:
+We will be cruising through the following topics
+- What is tailwind? (Recap)
+- What did I build?
+- Time 
+- Custom additions to `tailwind.js`
 
-### `yarn start`
+## What is tailwind? (Recap)
+Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. I have taken this definition from [here](https://tailwindcss.com/).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The documentation is stunning, I personally finished reading documentation.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## What did I build?
+After a good success with replication of [youtube](https://dev.to/gillarohith/i-replicated-youtube-design-using-tailwind-css-dmc). So I decided to replicate [Dev to](https://de.to/). It was close enough I feel. It’s only the desktop version of the website.
 
-### `yarn test`
+### Progress
+- Phase 1
+As I always prefer, I start with the _layout_.
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/l79w3rwaj5p4ab9pax3a.png)
+- Phase 2
+`NavBar`
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/m7ksjxjs05qzwca7c47g.png)
+- Phase 3
+`SideBar`
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/mdd3yf6njfs22yq0lwvc.png)
+- Phase 4
+`Listings`
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/lhzmi1abaohdnee08pv6.png)
+- Phase 5
+My fav one, `Et Voila!`
+![Dev.to](https://dev-to-uploads.s3.amazonaws.com/i/5fkubfebiq9k13k4rh16.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Time
+The overall time consumed was (calculated using wakatime) 
+![Time](https://dev-to-uploads.s3.amazonaws.com/i/gyhlizy5dvlrgnh3ect8.png)
+![Graphs](https://dev-to-uploads.s3.amazonaws.com/i/upbxbmssx30prnoiept3.png)
 
-### `yarn build`
+## Custom additions to `tailwind.js`
+This are the custom colors used in the development process.
+```json
+dev: {
+        gray: "#1a2634",
+        body: "#0d1219",
+        text: "#f9fafa",
+        link: "#dde0e2",
+        teal: "#1CB3A6",
+        tealPri: "#26d9ca",
+        hoverTags: "#868EE7",
+        searchBox: "#2E3A48",
+      }
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bonus `gif` :p
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/ff5hn3q2d4aj2hpvfkmn.gif)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Peace ✌🏻,
+Rohith Gilla.
